@@ -16,7 +16,7 @@ import org.testng.Assert;
 public class hackensackSample {
 
 	public static void main(String[] args) {
-//		tc001();
+		tc001();
 		tc002();
 	}
 	public static void tc001() {
@@ -77,4 +77,14 @@ public class hackensackSample {
 		}
 		driver.quit();
 	}
+	
+	public static void tc003() {
+		WebDriver driver =  new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.get("https://www.hackensackmeridianhealth.org/en/");
+		
+	}
+	
+	
 }

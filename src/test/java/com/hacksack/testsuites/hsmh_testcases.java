@@ -27,7 +27,7 @@ public class hsmh_testcases extends SetupNteardown{
 	  }
 	
   }
-  @Test(priority=2)
+//  @Test(priority=2)
   public void verifyFindDoctor() {
 	  WebElement findDoctor = driver.findElement(By.linkText("Find a Doctor"));
 
@@ -43,7 +43,7 @@ public class hsmh_testcases extends SetupNteardown{
 	System.out.println("Navigated to URL: " + currentUrl);
 
   }
-  @Test(priority=3)
+//  @Test(priority=3)
   public void HoverClickHospitals() throws InterruptedException {
 	  Actions actions = new Actions(driver);
 

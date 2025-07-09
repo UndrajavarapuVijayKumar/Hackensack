@@ -55,7 +55,9 @@ public class BaseTest {
     options.addArguments("--disable-notifications");
 
     extents = new ExtentReports();
-    spark = new ExtentSparkReporter("hackensackreport.html");
+//    spark = new ExtentSparkReporter("hackensackreport.html");
+    spark = new ExtentSparkReporter("report.html");
+
     extents.attachReporter(spark);
     
 	}

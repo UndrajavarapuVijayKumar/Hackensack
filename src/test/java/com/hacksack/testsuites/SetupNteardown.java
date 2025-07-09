@@ -66,7 +66,7 @@ public class SetupNteardown extends BaseTest{
     public void flushReport() throws IOException {
         if (extents != null) {
             extents.flush();
-            Desktop.getDesktop().browse(new File("report.html").toURI());
+            Desktop.getDesktop().browse(new File("C:/ProgramData/Jenkins/.jenkins/workspace/basic/report.html").toURI());
         }
     }
 }

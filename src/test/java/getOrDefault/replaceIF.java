@@ -10,6 +10,7 @@ public class replaceIF {
 		map.put("US", "Texas");
 		
 		
+				//tRADITIONAL
 		String city;
 		if(map.containsKey("UK")) {
 			city=map.get("UK");
@@ -20,7 +21,7 @@ public class replaceIF {
 		System.out.println(city);
 		
 		
-		
+				//using getOrDefault
 		
 		System.out.println(map.getOrDefault("UK", "unkonw"));
 		

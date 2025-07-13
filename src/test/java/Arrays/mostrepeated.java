@@ -24,3 +24,19 @@ public class mostrepeated {
 		}
 	}
 }
+
+
+/*
+ * correct version of finding second highest is package Arrays;
+ * 
+ * public class mostrepeated { public static void main(String[] args) { int[]
+ * arr = {2, 3, 4, 5, 6, 2, 3, 4, 2, 3, 2, 2, 2, 4};
+ * 
+ * int max = Integer.MIN_VALUE; int second = Integer.MIN_VALUE;
+ * 
+ * for (int num : arr) { if (num > max) { second = max; max = num; } else if
+ * (num > second && num != max) { second = num; } }
+ * 
+ * System.out.println("Largest: " + max); System.out.println("Second largest: "
+ * + second); } }
+ */
